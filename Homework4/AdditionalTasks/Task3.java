@@ -34,8 +34,8 @@ public class Task3 {
 	public static int[] findExtremumsAndDeleteTheirDuplicates(int[] array) {
 		int min = array[0];
 		int max = array[0];
-		int countMin = 0;
-		int countMax = 0;
+		int countMin = 1;
+		int countMax = 1;
 		for (int value : array) {
 			if (value < min) {
 				min = value;
